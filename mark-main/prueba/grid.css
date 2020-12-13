@@ -1,0 +1,54 @@
+.row {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.ban {
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.metas {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.proyectos {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .answer {
+        width: 80%;
+        float: left;
+        margin-top: 300px;
+        margin-left: 0px;
+    }
+    ul {
+        display: none;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .ir-arriba span {
+        padding-top: 10px;
+        padding-right: 50px;
+    }
+    .cards {
+        width: auto;
+        margin-bottom: 60%;
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1000px) {}

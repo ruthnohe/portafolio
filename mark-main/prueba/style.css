@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    font-family: arial;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    background-color: #fdfdfd1d;
+}
+
+ul {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 15px;
+    width: 10rem;
+}
+
+.logo {
+    padding: 22px 20px;
+    height: 25px;
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(21, 77, 182, .6);
+}
+
+.sub-menu {
+    color: rgba(194, 194, 194, 0.767);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+li:hover a {
+    color: rgb(209, 209, 209);
+    transition: all 0.4s linear;
+}
+
+/*  =============SLIDER  PRINCIPAL ============== */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: calc(100vh);
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url('../img/Home\ -\ Digital\ Marketing\ -\ Social\ Media.jpg');
+    animation: banner 12s infinite linear;
+    margin-bottom: 2rem;
+}
+
+.banner-content {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 22, 40, 0.6);
+    box-shadow: 0 0 10px 10px rgb(152, 163, 175);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content h1 {
+    padding: 0;
+    padding-bottom: 25px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner-content a {
+    text-decoration: none;
+    color: white;
+    padding: 9px 20px;
+    border: 1px solid #f5f5f5;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.banner-content a:hover {
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+@keyframes banner {
+    0% {
+        background-image: url('../img/Home\ -\ Digital\ Marketing\ -\ Social\ Media.jpg');
+    }
+    25% {
+        background-image: url('../img/Home\ -\ Digital\ Marketing\ -\ Social\ Media.jpg');
+    }
+    26% {
+        background-image: url('../img/invertir-en-marketing-digital.jpg');
+    }
+    50% {
+        background-image: url('../img/invertir-en-marketing-digital.jpg');
+    }
+    51% {
+        background-image: url('../img/lenguajes-bizarros-de-programacion-810x540.jpg');
+    }
+    75% {
+        background-image: url('../img/lenguajes-bizarros-de-programacion-810x540.jpg');
+    }
+    76% {
+        background-image: url('../img/maxresdefault.jpg');
+    }
+    100% {
+        background-image: url('../img/maxresdefault.jpg');
+    }
+}
+
+.box-two {
+    background-color: white;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.question {
+    height: 10rem;
+    width: 20rem;
+    margin-top: 10em;
+    border: transparent;
+    text-align: center;
+    text-align: justify;
+}
+
+.answer {
+    border: 0.5px rgba(88, 88, 88, 0.3) solid;
+    display: inline-block;
+    padding: 5em;
+    width: 25%;
+    margin-top: 10em;
+    margin-left: 5em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(51, 51, 139, 0.384);
+}
+
+.box-three {
+    border: transparent solid;
+    display: grid;
+    background-color: white;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.cards {
+    display: flex;
+    width: 70rem;
+    height: 25rem;
+    margin: 20px;
+    border: 0.5px rgba(88, 88, 88, 0.3) solid;
+    border-radius: 10px;
+    border-bottom: transparent;
+    border-top: transparent;
+}
+
+[class*="card-"] {
+    width: 34%;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.card-two {
+    border: 0.5px rgba(88, 88, 88, 0.3) solid;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-radius: 10px;
+}
+
+[class*="card-"] p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.fas, .fab {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.cards h3 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+/*-------------------------SECTION FIVE--------------------------*/
+
+.box-five {
+    display: grid;
+    background-color: white;
+    justify-content: center;
+    margin-top: 5rem;
+    width: auto;
+    height: auto;
+    margin-bottom: 8rem;
+}
+
+.tcards {
+    display: flex;
+    width: 70rem;
+    height: 25rem;
+    margin: 20px;
+    border: #aeaad4 solid;
+    border-radius: 5px;
+    background-color: #c6cee2;
+}
+
+.tcards:hover {
+    box-shadow: 10px 0px 15px 5px #a3a3a5;
+}
+
+[class*="tcard-"] {
+    width: 50%;
+    text-align: center;
+    padding-top: 0%;
+}
+
+.tcard-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 5px #aeaad4 solid;
+}
+
+.tcard-one span {
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: rgb(22, 52, 184) underline;
+}
+
+.tcard-two, .tcard-three {
+    font-style: italic;
+    color: rgb(22, 52, 184);
+    font-weight: 800;
+}
+
+.tcards img {
+    margin-top: 5em;
+    width: 50%;
+    height: 10rem;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.tcards img:hover {
+    box-shadow: 0px 4px 6px 2px rgb(22, 25, 184);
+}
+
+/* --------Pie de pagina------*/
+
+.box-four {
+    margin-bottom: 8rem;
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 7px 10px 5px rgba(124, 173, 236, 0.3);
+}
+
+.box-four .cintillo {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 10rem;
+}
+
+.box-four .cintillo img {
+    height: 100%;
+    width: 100%;
+    transition: all 500ms ease-in-out;
+}
+
+.box-four .cintillo .capa {
+    position: absolute;
+    top: 0;
+    height: 25rem;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(188, 188, 202, 0.61);
+    transition: all 500ms ease-in-out;
+    text-align: center;
+}
+
+.box-four .cintillo:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.box-four .cintillo:hover>.capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.box-four .cintillo .capa h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 180px;
+    margin-top: 30px;
+    transition: all 500ms ease-in-out;
+}
+
+.box-four .cintillo .capa p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 100%;
+    margin: auto;
+}
+
+.ir-arriba {
+    position: absolute;
+    left: 0;
+    width: 98%;
+    padding-bottom: 20px;
+    text-align: right;
+}
